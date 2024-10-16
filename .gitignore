@@ -1,0 +1,26 @@
+# Node modules
+node_modules/
+# Bun cache
+.bun/
+# Build output
+dist/
+# Logs
+logs/
+*.log
+# Environment variables
+.env
+# Vite cache
+.vite/
+# TypeScript cache
+*.tsbuildinfo
+# IDE specific files
+.idea/
+.vscode/
+# OS generated files
+.DS_Store
+Thumbs.db
+# Coverage directory used by tools like istanbul
+coverage/
+# Temporary files
+tmp/
+temp/

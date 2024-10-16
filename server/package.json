@@ -1,0 +1,24 @@
+{
+  "name": "server-bgalin",
+  "module": "src/app.ts",
+  "scripts": {
+    "start": "bun run src/app.ts",
+    "db:push": "bunx prisma db push"
+  },
+  "type": "module",
+  "devDependencies": {
+    "@types/bun": "latest",
+    "@types/cors": "^2.8.17",
+    "@types/express": "^5.0.0",
+    "@types/node": "^22.7.5",
+    "prisma": "5.21.0"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@prisma/client": "5.21.0",
+    "cors": "^2.8.5",
+    "express": "^4.21.1"
+  }
+}
